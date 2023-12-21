@@ -1,27 +1,282 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title> I AM CELESTIAL </title>
+    <meta charset="utf-8">
+    <title>Jose's User</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <style>
+        body {
+            background-color: #36393f;
+            color: #a0a1a7;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .discord-container {
+            padding: 40px;
+        }
+
+        .card {
+            background-color: #36393f;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+        .bg-custom {
+          background-color: #36393f;
+        }
+
+        .breadcrumb {
+            background-color: transparent;
+            border-radius: 0;
+        }
+
+        .breadcrumb-item {
+            color: #a0a1a7;
+        }
+
+        .breadcrumb-item.active {
+            color: #fff;
+        }
+
+        .avatar {
+            width: 150px;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn {
+            background-color: #7289da;
+            border: none;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 5px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #5e72b8;
+        }
+
+        .list-group-item {
+            background-color: #36393f;
+            border: none;
+            color: #a0a1a7;
+        }
+
+        .list-group-item i {
+            margin-right: 10px;
+        }
+
+        .list-group-item:hover {
+            background-color: #41454b;
+        }
+
+        .progress {
+            height: 5px;
+            background-color: #41454b;
+            border-radius: 5px;
+        }
+
+        .progress-bar {
+            background-color: #7289da;
+        }
+    </style>
 </head>
+
 <body>
+    <section style="background-color: #232529">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                    <nav aria-label="breadcrumb" class="bg-custom rounded-3 p-3 mb-4">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">User</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">User Profile</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
 
-<h2 style="text-align:center">The Celestial King</h2>
+            
 
-<div class="card">
-  <img src="celestial.png" alt="KING" style="width:100%">
-  <h1>Jose Nunez</h1>
-  <p class="title">BSCS-SS</p>
-  <p>Asia Pacific College</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a> 
-    <a href="#"><i class="fa fa-twitter"></i></a>  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  
-    <a href="#"><i class="fa fa-facebook"></i></a> 
-  </div>
-  <p><button>Contact</button></p>
-</div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <img src="celestial.png" alt="avatar" class="rounded-square img-fluid avatar">
+                            <h5 class="my-3">Jose Enrique D. Nunez</h5>
+                            <p class="text-muted mb-1">Developer</p>
+                            <p class="text-muted mb-4">Metro manila, Pasay City</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <button type="button" class="btn btn-primary">Follow</button>
+                                
+                                <button type="button" class="btn btn-outline-primary ms-1">Message</button>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="card mb-4 mb-lg-0">
+                        <div class="card-body p-0">
+                            <ul class="list-group list-group-flush rounded-3">
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fas fa-globe fa-lg text-warning"></i>
+                                    <p class="mb-0">JEDN</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-github fa-lg" style="color: #333333;"></i>
+                                    <p class="mb-0">Celestial-King</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
+                                    <p class="mb-0">no</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
+                                    <p class="mb-0">@nunezzenrique</p>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                                    <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
+                                    <p class="mb-0">@Jose Nunez</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <p class="mb-0">Full Name</p>
+                                </div>
+                                <div class="col-sm-9">
+                                    <p class="text-muted mb-0">Jose Enrique D. Nunez</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <p class="mb-0">Email</p>
+                                </div>
+                                <div class="col-sm-9">
+                                    <p class="text-muted mb-0">jdnunez@student.apc.edu.ph</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <p class="mb-0">Phone</p>
+                                </div>
+                                <div class="col-sm-9">
+                                    <p class="text-muted mb-0">XXX-XXXX</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <p class="mb-0">Mobile</p>
+                                </div>
+                                <div class="col-sm-9">
+                                    <p class="text-muted mb-0">XXX-XXXX</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <p class="mb-0">Address</p>
+                                </div>
+                                <div class="col-sm-9">
+                                    <p class="text-muted mb-0">Metro manila, Pasay City</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-4 mb-md-0">
+                                <div class="card-body">
+                                    <p class="mb-4"><span class="text-primary font-italic me-1">Assignment</span> Project
+                                        Status
+                                    </p>
+                                    <p class="mb-1" style="font-size: .77rem;">Web Design</p>
+                                    <div class="progress rounded" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="mt-4 mb-1" style="font-size: .77rem;">Website Markup</p>
+                                    <div class="progress rounded" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 72%"
+                                            aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="mt-4 mb-1" style="font-size: .77rem;">One Page</p>
+                                    <div class="progress rounded" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 89%"
+                                            aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="mt-4 mb-1" style="font-size: .77rem;">Mobile Template</p>
+                                    <div class="progress rounded" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 55%"
+                                            aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="mt-4 mb-1" style="font-size: .77rem;">Backend API</p>
+                                    <div class="progress rounded mb-2" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 66%"
+                                            aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card mb-4 mb-md-0">
+                                <div class="card-body">
+                                    <p class="mb-4"><span class="text-primary font-italic me-1">Assignment</span> Physical
+                                        Status
+                                    </p>
+                                    <p class="mb-1" style="font-size: .77rem;">Speed</p>
+                                    <div class="progress rounded" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="mt-4 mb-1" style="font-size: .77rem;">Strength</p>
+                                    <div class="progress rounded" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 35%"
+                                            aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="mt-4 mb-1" style="font-size: .77rem;">Endurance</p>
+                                    <div class="progress rounded" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="mt-4 mb-1" style="font-size: .77rem;">Charisma</p>
+                                    <div class="progress rounded" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%"
+                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="mt-4 mb-1" style="font-size: .77rem;">Moxie</p>
+                                    <div class="progress rounded mb-2" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 55%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional sections can be added here -->
+        </div>
+    </section>
 </body>
+
 </html>
+
