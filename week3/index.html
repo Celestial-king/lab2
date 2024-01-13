@@ -6,6 +6,7 @@
     <title>Jose's User</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    
     <style>
         body {
             background-color: #36393f;
@@ -13,6 +14,29 @@
             font-family: Helvetica, Arial, sans-serif;
         }
 
+        header {
+        background-color: #000000;
+        padding: 20px;
+        }
+
+        nav ul {
+        list-style-type: none;
+        padding: 0;
+        }
+
+        nav ul li {
+        display: inline;
+        margin-right: 20px;
+        }
+
+        nav ul li a {
+        text-decoration: none;
+        color: #7c6f6f;
+        }
+
+        nav ul li a:hover {
+        color: #7c6f6f;
+        }
         .discord-container {
             padding: 40px;
         }
@@ -45,7 +69,7 @@
 
         .avatar {
             width: 150px;
-            border-radius: 50%;
+            border-radius: 20%;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
@@ -88,6 +112,33 @@
     </style>
 </head>
 
+<header>
+    <nav>
+       <ul>
+         <li><a href="#about-book">About Book</a></li>
+         <li><a href="#portfolio">Portfolio</a></li>
+         <li><a href="#blog">Blog</a></li>
+         <li><a href="#contact">Contact</a></li>
+       </ul>
+    </nav>
+   </header>
+
+   <section id="about-book">
+    <!-- About Book content goes here -->
+   </section>
+   
+   <section id="portfolio">
+    <!-- Portfolio content goes here -->
+   </section>
+   
+   <section id="blog">
+    <!-- Blog content goes here -->
+   </section>
+   
+   <section id="contact">
+    <!-- Contact content goes here -->
+   </section>
+
 <body>
     <section style="background-color: #232529">
         <div class="container py-5">
@@ -103,8 +154,6 @@
                 </div>
             </div>
 
-            
-
             <div class="row">
                 <div class="col-lg-4">
                     <div class="card mb-4">
@@ -114,9 +163,9 @@
                             <p class="text-muted mb-1">Developer</p>
                             <p class="text-muted mb-4">Metro manila, Pasay City</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <button type="button" class="btn btn-primary">Follow</button>
-                                
-                                <button type="button" class="btn btn-outline-primary ms-1">Message</button>
+                                <button type="button" class="btn btn-primary" onclick="window.location.href='https://www.instagram.com/nunezzenrique/'">Follow</button>
+                                <p>.    .</p>
+                                <a href="https://www.facebook.com/profile.php?id=100079851079655" class="btn btn-outline-primary ms-1">Message</a>
                             </div>
                         </div>
                     </div>
@@ -129,20 +178,20 @@
                                     <p class="mb-0">JEDN</p>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                                    <i class="fab fa-github fa-lg" style="color: #333333;"></i>
-                                    <p class="mb-0">Celestial-King</p>
+                                    <i class="fab fa-github fa-lg" style="color: #eaeaea;"></i>
+                                    <a href="https://github.com/Celestial-king">Celestial-King</a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                                     <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
-                                    <p class="mb-0">no</p>
+                                    <a href="https://twitter.com/mafbex">CELESTIAL KING</a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                                    <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
-                                    <p class="mb-0">@nunezzenrique</p>
+                                    <i class="fab fa-instagram fa-lg" style="color: #E45F5F;"></i>
+                                    <a href="https://www.instagram.com/nunezzenrique/">@nunezzenrique</a>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                                     <i class="fab fa-facebook-f fa-lg" style="color: #3b5998;"></i>
-                                    <p class="mb-0">@Jose Nunez</p>
+                                    <a href="https://www.facebook.com/profile.php?id=100079851079655">Jose Nunez</a>
                                 </li>
                             </ul>
                         </div>
@@ -203,8 +252,8 @@
                         <div class="col-md-6">
                             <div class="card mb-4 mb-md-0">
                                 <div class="card-body">
-                                    <p class="mb-4"><span class="text-primary font-italic me-1">Assignment</span> Project
-                                        Status
+                                    <p class="mb-4"><span class="text-primary font-italic me-1">Project
+                                        Status</span>
                                     </p>
                                     <p class="mb-1" style="font-size: .77rem;">Web Design</p>
                                     <div class="progress rounded" style="height: 5px;">
@@ -238,8 +287,8 @@
                         <div class="col-md-6">
                             <div class="card mb-4 mb-md-0">
                                 <div class="card-body">
-                                    <p class="mb-4"><span class="text-primary font-italic me-1">Assignment</span> Physical
-                                        Status
+                                    <p class="mb-4"><span class="text-primary font-italic me-1">Physical
+                                        Status</span> 
                                     </p>
                                     <p class="mb-1" style="font-size: .77rem;">Speed</p>
                                     <div class="progress rounded" style="height: 5px;">
