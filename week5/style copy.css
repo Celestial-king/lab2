@@ -122,10 +122,6 @@ nav .hamburger.active .bar {
 
 .home {
   background: var(--bg-color);
-  background-image: url("ACOUSTIC.jpg");
-  background-repeat: no-repeat;
-
-  background-size: 100% 100%;
   position: absolute;
   top: 0;
   width: 100%;
@@ -306,7 +302,7 @@ ul{
 	list-style: none;
 }
 .footer{
-	background: transparent;
+	background: var(--bg-color);
     padding: 70px 0;  
     z-index: 1;
 }
