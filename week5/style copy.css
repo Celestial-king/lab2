@@ -13,6 +13,7 @@
   --white: #ffffff;
   --black: #000;
   --mob-color: #444444;
+  --black-mamba: #377363;
 }
 
 .container {
@@ -167,7 +168,7 @@ nav .hamburger.active .bar {
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
-  color: #ffffff;
+  color: #e0d4d4;
   mask-border: 50px;
   margin-bottom: 15px;
   text-align: justify;
