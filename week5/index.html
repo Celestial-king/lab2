@@ -1,94 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="style copy.css">
-  <title>Jose's Personal Profile</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jose's Portfolio</title>
+    <link rel="stylesheet" href="style index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="icon.png">
 </head>
-
 <body>
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo">
-          <a href="#"><span>Jose Enrique</span> Nunez</a>
-        </div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="https://github.com/Celestial-king">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/jose-enrique-nuñez-celestial/">linkedin</a></li>
-          <li><a href="contact.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <button class="hamburger">
-            <div class="bar"></div>
-        </button>
-      </nav>
-    </div>
-  </header>
-
-  <section class="home">
-    <div class="container">
-      <div class="home-info">
-        <div class="left">
-          <h3>Hello, I'm</h3>
-          <h1>Jose Enrique D. Nunez</h1>
-          <h4>
-            And I'm a <span class="GOD"></span>
-          </h4>
-          <p>
-            Hi Jose Enrique D. Nunez, a passionate front-end developer specializing in translating design concepts into seamless and interactive web experiences using HTML, CSS, and JavaScript.
-          </p>
+    <header class="header">
+        <a href="#" class="logo">Jose Enrique D. Nunez</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="#">Portfolio</a>
+          <a href="contact.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="nav-bg"></div>
+    
+    <section class="home">
+      <div class="homeContent">
+          <h3>Hello, I am</h3>
+          <h1>Jose Enrique D.Nunez</h1>
+          <h2>A.K.A Celestial <span class="typing_text2"></span></h2>
+          <p> I am passionate front-end developer specializing in translating design concepts into seamless and interactive web experiences using HTML, CSS, and JavaScript.</p>
+          <div class="socialMedia">
+              <a href="https://github.com/Celestial-king" target="_blank"><i class='bx bxl-github'></i></a>
+              <a href="https://www.linkedin.com/in/jose-enrique-nuñez-celestial/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100079851079655" target="_blank"><i class='bx bxl-facebook' ></i></a>
+              <a href="https://www.instagram.com/nunezzenrique/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+          </div>
           <div class="btn">
-            <button> <a href="https://www.linkedin.com/in/jose-enrique-nuñez-celestial/"><i class="fab fa-linkedin-in"></i></a>Connect With Me</button>
-            
+          <button> <a href="https://www.linkedin.com/in/jose-enrique-nuñez-celestial/" target="_blank">Connect with me</a></button>
           </div>
         </div>
-        <div class="right">
-          <div class="profile">
-            <img src="celestial.png" alt="">
-          </div>
+
+      <div class="right">
+        <div class="profile">
+          <img src="CELESTIAL.jpg" alt="profile">
         </div>
-      </div>
     </div>
-    <footer class="footer">
-      <div class="container">
-        
-        <div class="row">
-          <div class="footer-col">
-            <h4>Jose's company</h4>
-            <ul>
-              <li><a href="contact.html">about me</a></li>
-              <li><a href="index.html">My services</a></li>
-              <li><a href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">stack path resource</a></li>
-              <li><a href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">font awsome resousrse</a></li>
-              <li><a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">cloud fire</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>follow me</h4>
-            <div class="social-links">
-              <a href="https://www.facebook.com/profile.php?id=100079851079655"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://twitter.com/mafbex"><i class="fab fa-twitter"></i></a>
-              <a href="https://www.instagram.com/nunezzenrique/"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/jose-enrique-nuñez-celestial/"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-   </footer>
-  </section>
-
-
-    
-    
-
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="main.js"></script>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
