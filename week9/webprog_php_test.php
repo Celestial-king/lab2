@@ -101,7 +101,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO jdnunez_myguests (name, website, email, comment, gender)
+$sql = "INSERT INTO jdnunez_myguests (name, email, website, comment, gender)
 VALUES ('$name', '$website', '$email', '$comment', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
